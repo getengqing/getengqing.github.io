@@ -69,5 +69,5 @@ theme: light #landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:https:getengqing/getengqing.github.io.git
+  repository: git@github.com:getengqing/getengqing.github.io.git
   branch: master

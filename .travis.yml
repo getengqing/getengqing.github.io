@@ -1,0 +1,10 @@
+deploy:
+  provider: releases
+  api_key:
+    secure: AdNgks/Sx6IgMBisUNpwn1rmoy7xD97orXs8/NcqNi9Rg/1hDXp942bjZz6gYP/bkz+R6dTZpSt9enIxJq5KdlxfsoREUNHF0ydDZzg6v/eKnZO0XdOpPPlrAA/1NAxTdPl+DMe+k8dIZOEAzCjT42HlztNcpmkIOB7pTQOHj9pr2hUsvmg/LGrq9RtH5E/O6w1YELhKxqYT+9ePLfwZzVyQpvpzHxBl+onCLOFrD4XLHJTV6OcTS1yMEtPPLePgDpemEic7A6NuMNsjLdqmOJAk5M+9Y1RLaLgtKIU+yOoEc4/NVt7/RoVChjB/pQTZ41VnA1qsmUXivMJD4m8B6uffAW8Ululb7tc+2cHKuTjolB+Ps8AEvebrZY7OM8XZuAgnBVOhWtEzZjDpECoH1MsVrtPavzvBD5EA1aSjq5X+/hNeF0vwwigR4dqJFcyYDcXnP1oj230gyrNvw7ggFc5MkfglUCDDNFNptNDAHE4MaZsoKkl+YbtRX+fTQflu876RWFmSh/RaIijwoMD7CEBZm+9gij7V1+mR7JqOaGkhcNFhlcW+ZFGveaRlsZgUK17+yx90UZglgEQHPtsHvrhcuYCVnfBz6CKK+vHOBt9b5fcyQYGiBNxLGziXCb3FWa5vTMBJ5daKSjJ+Lww3vtSaRHuIA4P4PHkv03PVu1A=
+  file: getengqing/getengqing.github.io
+  on:
+    repo: getengqing/getengqing.github.io
+before_install:
+- openssl aes-256-cbc -K $encrypted_856a0af8edf4_key -iv $encrypted_856a0af8edf4_iv
+  -in id_rsa_blog.enc -out ~\/.ssh/id_rsa_blog -d
