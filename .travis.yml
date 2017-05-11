@@ -5,7 +5,6 @@ git:
   submodules: false
 install:
     - npm install
-    - npm install karma
     - npm install -g codecov istanbul
 test:
     - npm run test
