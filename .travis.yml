@@ -5,5 +5,8 @@ git:
   submodules: false
 install:
     - npm install
+    - npm install -g codecov istanbul
 test:
     - npm run test
+script:
+    - npm run coverage
