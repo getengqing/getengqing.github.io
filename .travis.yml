@@ -8,5 +8,5 @@ install:
     - npm install -g codecov istanbul
 test:
     - npm run test
-script:
-    - npm run coverage
+#script:
+#    - npm run coverage
